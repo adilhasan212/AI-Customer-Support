@@ -74,7 +74,7 @@ export default function Home() {
 
   useEffect(() => {
     scrollToBottom();
-  }, [messages]); // Runs when `messages` update
+  }, [messages]); // Runs when messages update
 
   return (
     <>
